@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "refinedstorage:grid"
+    },
+    "title": {
+      "translate": "advancements.refinedstorage.viewing_items"
+    },
+    "description": {
+      "translate": "advancements.refinedstorage.viewing_items.description"
+    }
+  },
+  "parent": "refinedstorage:storing_items",
+  "criteria": {
+    "grid_in_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "refinedstorage:grid"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
